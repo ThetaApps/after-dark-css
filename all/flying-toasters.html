@@ -337,7 +337,8 @@
 <script type="text/javascript">
   var bg = q('bg')
   if (bg != 'err404') {
-    document.body.style.backgroundImage = 'url("/after-dark-css/img/'+bg+'")';
+    var bgurl = '/after-dark-css/img/'+bg
+    document.body.style.backgroundImage = url(bgurl);
   }
 </script>
 </body>
